@@ -8,8 +8,8 @@ def conectar_base_datos():
         # Creamos la conexión usando los parámetros: host, usuario, contraseña y base de datos
         conexion = mysql.connector.connect(
             host='localhost',          # Dirección del servidor (localhost si es tu misma PC)
-            user='tu_usuario',         # Cambia esto por tu nombre de usuario en MySQL
-            password='tu_contraseña',  # Cambia esto por tu contraseña
+            user='root',         # Cambia esto por tu nombre de usuario en MySQL
+            password='1234',  # Cambia esto por tu contraseña
             database='hospital_db'     # Nombre de la base de datos que vas a usar
         )
 
